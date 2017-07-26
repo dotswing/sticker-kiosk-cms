@@ -19,7 +19,11 @@ default: &default
 
 development:
   <<: *default
-  database: sticker-kiosk-cms_test
+  username: lsk_admin
+  host: 10.127.93.36
+  database: sticker_kiosk_development
+  port: 20306
+  password: ETBEhjiCBjxPEMRtRt3gMYjA
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
